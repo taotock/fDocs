@@ -1,0 +1,40 @@
+{
+  "name": "heavenui.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "async-validator": "1.11.5",
+    "calendar-selector": "0.0.3",
+    "core-js": "^3.20.0",
+    "element-ui": "^2.15.6",
+    "heaven-ui": "0.0.3",
+    "infinite-scroll-vue": "0.0.1",
+    "pull-refresh-vue": "0.0.1",
+    "vue-google-adsense": "^1.9.3",
+    "vue-script2": "^2.1.0",
+    "vuepress": "^1.0.2"
+  },
+  "devDependencies": {
+    "less": "^3.13.1",
+    "less-loader": "^6.2.0"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hujinbin/heavenUI.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hujinbin/heavenUI.github.io/issues"
+  },
+  "homepage": "https://github.com/hujinbin/heavenUI.github.io#readme"
+}
