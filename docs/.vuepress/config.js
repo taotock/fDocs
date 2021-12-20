@@ -3,6 +3,7 @@ const sidebarConfig = require('./config/sidebarConfig')
 const headConfig = require('./config/headConfig')
 
 module.exports = {
+  base: '/fDocs/',
   title: "Heaven",
   description: "轻量、可靠的 Vue 组件库",
   themeConfig: {
@@ -16,6 +17,7 @@ module.exports = {
   },
   head: headConfig,
   plugins: [
+    '@vuepress/back-to-top'
     // require('./enhanceApp')
   ],
 };

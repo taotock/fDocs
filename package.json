@@ -19,13 +19,15 @@
     "vuepress": "^1.0.2"
   },
   "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
     "less": "^3.13.1",
     "less-loader": "^6.2.0"
   },
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
