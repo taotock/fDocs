@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[21],{502:function(n,t,e){"use strict";e.r(t);var a={data:function(){return{}},methods:{pageChange:function(n){}}},o=e(38),u=Object(o.a)(a,(function(){var n=this.$createElement;return(this._self._c||n)("h-pagination",{attrs:{pageCount:5},on:{onChange:this.pageChange}})}),[],!1,null,null,null);t.default=u.exports}}]);
